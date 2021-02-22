@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册-考拉海购</title>
+    <link rel="stylesheet" href="css/all.css">
+    <style>
+        .head{
+            border-bottom: 1px solid #e8e8ea;
+            width: 100%;
+            height: 100px;
+        }
+        .head_box{
+            width: 1000px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .head_img1{
+            position: absolute;
+            top: 20px;
+        }
+        .head_img2{
+            float: right;
+            margin-right: 100px;
+        }
+        .foot{
+            width: 100%;
+            border-top: 1px solid #eaeaea;
+        }
+        .foot_box{
+            padding: 20px 0;
+            color: #666;
+            text-align: center;
+            line-height: 26px;
+        }
+        .foot span{
+            margin-left: 20px;
+        }
+        .foot a{
+            color: #666;
+        }
+        .foot a:hover{
+            text-decoration: underline;
+        }
+        .foot_img1{
+            position: relative;
+            top:5px;
+        }
+        .foot_img2{
+            margin-top: 5px;
+            border-radius: 5px;
+            width: 80px;
+            height: 30px;
+        }
+        .foot_img3{
+            height: 30px;
+            margin: 5px 0 0 10px;
+        }
+        .main{
+            width: 100%;
+            background-color: #f8f8f8;
+        }
+        .main_box{
+            position: relative;
+            margin: 0 auto;
+            width: 1000px;
+            height: 600px;
+        }
+        .main_img{
+            position: absolute;
+            top: 50%;
+            left: 10px;
+            margin-top: -100px;
+            width: 400px;
+        }
+        .main_data{
+            padding: 20px;
+            width: 300px;
+            height: 350px;
+            position: absolute;
+            top: 100px;
+            right: 100px;
+            background-color: #fff;
+            color: #666;
+        }
+        .main_data h3{
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .main_data input{
+            width: 260px;
+            height: 40px;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #e9e9e9;
+            outline: none;
+            border-radius: 4px;
+        }
+        .main_data .btn{
+            background:#81befc;
+            padding-left: 0;
+            color: #fff;
+            
+        }
+        .main_data .check{
+            width: 12px;
+            height: 12px;
+            margin-right: 10px;
+        }
+        .inpdiv{
+            position: relative;
+        }
+        #span{
+            position: absolute;
+            top: -18px;
+            left: 20px;
+            color: #e26969;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="head_box">
+            <a href="kaola.html" class="head_img1">
+                <img src="images/kaola.png" alt="">
+            </a>
+            <img src="images/kaola2.png" class="head_img2">
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_box">
+            <a href="kaola.html" class="main_img">
+                <img src="images/kaola3.png" alt="">
+            </a>
+            <form class="main_data">
+                <h3>账号注册</h3>
+                <input type="text" name="username" placeholder="请输入6-10位账号"><div class="inpdiv"><span id="span"></span></div>
+                <input type="password" name="password" placeholder="请输入6-16位密码"><div class="inpdiv"><span id="span"></span></div>
+                <input type="text" name="email" placeholder="请输入邮箱"><div class="inpdiv"><span id="span"></span></div>
+                <input type="checkbox" name="" class="check"><span>是否同意</span>
+                <input type="button" value="注册" class="btn" disabled>
+            </form>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot_box">
+            <span>增值电信业务经营许可证：浙B2-20160288</span>
+            <span>（浙）网械平台备字[2018]第00007号</span>
+            <span>阿里巴巴版权所有©2003-2021</span>
+            <a style="margin-left: 20px;" href="#">隐私政策</a>
+            <u>-</u>
+            <a href="#">考拉海购</a>
+            <br>
+            <span>网络文化经营许可证：浙网文（2020）4340-180号</span>
+            <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010006</span>
+            <a href="#"><span style="margin: 0px 0px 0px 20px;">网络第三方平台规范进口冷链食品承诺函</span></a>
+            <br>
+            <a href="#"><img src="images/kaola4.png" class="foot_img1"></a>
+            <a href="#"><span style="margin: 0px 0px 0px 5px;">浙公网安备 33010802002216号</span> </a>
+            <a href="#"><span>互联网药品信息服务资格证书编号（浙）-2017-0027</span></a>
+            <a href="#"><span>浙ICP备16011229号-6 </span></a>
+            <a href="#"><span>自营经营者信息 </span></a>
+            <br>
+            <a href="#"><img src="images/kaola5.png" class="foot_img2"></a>
+            <a href="#"><img src="images/kaola6.png" class="foot_img3"></a>
+        </div>
+    </div>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+        var inp=document.querySelectorAll('input')
+        var span=document.querySelectorAll('#span')
+        inp[3].onclick=function(){
+            if(this.checked){
+                //取消登录按钮的禁用
+                inp[4].style.background='#007fff';
+                inp[4].disabled=false
+                inp[4].style.cursor='pointer';
+            }else{
+                inp[4].style.background='#81befc';
+                inp[4].disabled=true
+                inp[4].style.cursor='';
+            }
+        }
+        var user=false //输入错误时为false
+        inp[0].onfocus=function(){
+            inp[0].style.border='1px solid #007fff';
+        }
+        inp[0].onblur=function(){
+            var val=this.value
+            var reg=/^[1-9a-zA-Z]\w{5,11}$/
+            if(reg.test(val)){
+                span[0].innerHTML=''
+                user=true
+                inp[0].style.border='1px solid #e9e9e9';
+            }else{
+                span[0].innerHTML='请输入6-12位字符账号'
+                user=false
+                this.focus()
+            }
+        }
+        var pass=false //输入错误时为false
+        inp[1].onfocus=function(){
+            inp[1].style.border='1px solid #007fff';
+        }
+        inp[1].onblur=function(){
+            var val=this.value
+            var reg=/^\w{6,16}$/
+            if(reg.test(val)){
+                span[1].innerHTML=''
+                pass=true
+                inp[1].style.border='1px solid #e9e9e9';
+            }else{
+                span[1].innerHTML='请输入6-16位密码'
+                pass=false
+                this.focus()
+            }
+        }
+        var email=false //输入错误时为false
+        inp[2].onfocus=function(){
+            inp[2].style.border='1px solid #007fff';
+        }
+        inp[2].onblur=function(){
+            var val=this.value
+            var reg=/^[1-9]\d{5,16}@(qq|163|126)\.com$/
+            if(reg.test(val)){
+                span[2].innerHTML=''
+                email=true
+                inp[2].style.border='1px solid #e9e9e9';
+            }else{
+                span[2].innerHTML='请输入正确格式的邮箱'
+                email=false
+                this.focus()
+            }
+        }
+        inp[4].onclick=function(){
+            //判断输入框全部为true
+            if(user&&pass&&email){
+                //获取账号密码的value
+                var u1=inp[0].value
+                var p1=inp[1].value
+                var m1=inp[2].value
+                //调用ajax请求
+                Ajax({
+                    url:'php/zhuce.php',
+                    type:'post',
+                    data:`username=${u1}&password=${p1}&email=${m1}`,
+                    success:function(dt){
+                        //判断当前返回值是否等于1
+                        if(dt==1){
+                            alert('注册成功！')
+                            location.href="./denglu.html"
+                        }
+                    }
+                })
+            }else{
+                inp[0].onblur()
+                inp[1].onblur()
+                inp[2].onblur()
+                return false
+            }
+        }
+    </script>
+</body>
+</html>

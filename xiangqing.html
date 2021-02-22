@@ -1,0 +1,2091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/xiangqing.css">
+    <link rel="stylesheet" href="font_kaola/iconfont.css">
+</head>
+<body>
+    <div class="head">
+        <div class="head_box" name="top">
+            <div class="head_left">
+                <span>考拉欢迎你！</span>
+                <a href="denglu.html" class="head_a">登录</a>
+                <a href="zhuce.html" class="head_a">免费注册</a>
+                <a href="javascript:;" class="user">欢迎回来，<span></span></a>
+                <a href="javascript:;" class="user_tui">退出</a>
+
+            </div>
+            <ul class="head_rig">
+                <li><a href="#" class="head_a2">每日签到</a></li>
+                <li><a href="#" class="head_a2">我的订单</a></li>
+                <li class="head_li">
+                    <a href="javascript:;" class="head_li_a">个人中心 <span class="iconfont head_font">&#xe602;</span></a>
+                    <div class="head_rig_bot">
+                        <a href="javascript:;">我的优惠卷</a>
+                        <a href="javascript:;">我的购物津贴</a>
+                        <a href="javascript:;">我的红包</a>
+                        <a href="javascript:;">我的考拉豆</a>
+                        <a href="javascript:;">账号管理</a>
+                        <a href="javascript:;">我的实名认证</a>
+                        <a href="javascript:;">我收藏的物品</a>
+                    </div>
+                </li>
+                <li class="head_li"><a href="javascript:;" class="head_li_a">客户服务 <span class="iconfont head_font">&#xe602;</span></a>
+                    <div class="head_rig_bot">
+                        <a href="javascript:;">联系客服</a>
+                        <a href="javascript:;">帮助中心</a>
+                        <a href="javascript:;">知识产权保护</a>
+                        <a href="javascript:;">规则中心</a>
+                    </div>
+                </li>
+                <li class="head_li"><a href="javascript:;" class="head_li_a">充值中心 <span class="iconfont head_font">&#xe602;</span></a>
+                    <div class="head_rig_bot">
+                        <a href="javascript:;">话费充值</a>
+                        <a href="javascript:;">游戏充值</a>
+                        <a href="javascript:;">AppStore充值卡</a>
+                    </div>
+                </li>
+                <li class="head_li"><a href="javascript:;" class="head_li_a">消费者权益 <span class="iconfont head_font">&#xe602;</span></a>
+                    <div class="head_rig_bot">
+                        <a href="javascript:;">消费者告知书</a>
+                    </div>
+                </li>
+                <li class="head_li"><a href="javascript:;" class="head_li_a">更多 <span class="iconfont head_font">&#xe602;</span></a>
+                    <div class="head_rig_bot">
+                        <a href="javascript:;">收藏本站</a>
+                        <a href="javascript:;">新浪微博</a>
+                        <a href="javascript:;">微信公众号</a>
+                        <a href="javascript:;">招商合作</a>
+                    </div>
+                </li>
+                <li><a href="#" class="head_a2">视频内容</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="inp" id="inp">
+        <div class="inp_box">
+            <a href="kaola.html" class="inp_logo"></a>
+            <div class="inp_logo2">
+                <a href="javascript:;"></a>
+            </div>
+            <div class="inp_cen">
+                <span class="inp_img1"></span>
+                <input type="text" class="inp_one" placeholder="买到就是赚到">
+                <div class="inp_sou"></div>
+            </div>
+            <a href="javascript:;" class="inp_go">
+                <i></i>
+                <span>购物车</span>
+            </a>
+        </div>
+    </div>
+    <!-- 二级列表 -->
+    <nav class="nav">
+        <div class="nav_tab">
+            <!-- 列表分类 -->
+            <div class="navall">
+                <div class="navall_left">
+                    <i id="nav_yi"></i>
+                    <i id="nav_yi"></i>
+                    <i id="nav_yi"></i>
+                </div>
+                <span>所有分类</span>
+                <!-- 二级列表详情 -->
+                <ul class="nav_uls">
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe61c;</u>
+                    <span>美容彩妆</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>护肤</b></a>
+                                <a href="javascript:;"><b>面膜</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洁面</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">卸妆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">爽肤水</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">面霜</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">面部护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">精华</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">乳液/凝胶</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">唇部护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护肤套装</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">精油芳疗</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">面部护肤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">防晒修复</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">男士护肤</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">美迪惠尔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">JMsolution</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">RAY</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Dr.Jart+</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">JAYJUN</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">春雨</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">香蒲丽</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">森田药妆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肌美精</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽得姿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他面膜</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>彩妆</b></a>
+                                <a href="javascript:;"><b>防晒修复</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">BB霜/CC霜</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">唇膏/唇彩</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">隔离/妆前</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">粉底</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">粉饼/散粉</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美甲</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">眼线</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">眉笔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">睫毛膏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">眼影</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">腮红</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">遮瑕</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">香水</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">化妆工具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">彩妆工具</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">怡思丁</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">安耐晒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">娜丽丝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">RE:CIPE</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">碧柔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">水宝宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">香蕉船</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">嘉娜宝Alloe</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Ultrasun</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">苏菲娜</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">高斯</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他防晒</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>香水/香氛</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">女士香水</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">男士香水</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">香水套装</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav1.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav2.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav3.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav4.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav5.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav6.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav7.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe66b;</u>
+                    <span>母婴儿童</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe605;</u>
+                    <span>营养保健</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe611;</u>
+                    <span>数码家电</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe603;</u>
+                    <span>个护家清</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe614;</u>
+                    <span>服饰鞋靴</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe609;</u>
+                    <span>运动户外</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe7d0;</u>
+                    <span>手表配饰</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe7cf;</u>
+                    <span>轻奢</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe604;</u>
+                    <span>家居生活</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe649;</u>
+                    <span>环球美食</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <em id="em"></em>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav_lis">
+                    <u class="iconfont nav_lis_font">&#xe6c1;</u>
+                    <span>宠物生活</span>
+                    <i class="iconfont" id="nav_lis_i">&#xe683;</i>
+                    <div class="nav_nav">
+                        <div class="nav_nav_left">
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>奶粉</b></a>
+                                <a href="javascript:;"><b>纸尿裤/拉拉裤</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">爱他美</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">牛栏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">a2</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喜宝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">贝拉米</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">惠氏</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">美素佳儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">Hero Baby</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">雅培</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">美赞臣</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">贝儿</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">雀巢</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">合生元</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">满趣健</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">Pre段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">1段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">2段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">3段</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">4段（1+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">5段（2+）</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">6段</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">花王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">尤妮佳</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">大王</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">好奇</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">帮宝舒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妈咪宝贝</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">班博</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">丽贝乐</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">妮飘</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">姆明一族</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">NB号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">S号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">M号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">L号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XL号</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">XXL号</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>营养辅食</b></a>
+                                <a href="javascript:;"><b>宝宝用品/玩具图书</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">辅食泥</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">米粉米糊</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">泡芙</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">溶溶豆</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">营养品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">饼干</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">肉松面仔</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">调味品</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他辅食</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他零食</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">洗漱护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">护理</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">喂养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">出行</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">清洁消毒</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">图书绘本</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">积木拼插</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">早教益智</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">爬行学步</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">其他玩具</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝家居</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">小家电</a>
+                            </div>
+                            <p class="nav_left_p">
+                                <a href="javascript:;" class="nav_left_pa"><b>童装童鞋</b></a>
+                                <a href="javascript:;"><b>孕妈必备</b></a>
+                            </p>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_red">连体爬服</a>
+                                <a href="" class="nav_left_diva nav_left_diva_red">宝宝套装/衬衫/T恤</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">宝宝裤子</a>
+                            </div>
+                            <div class="nav_left_div">
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕妈洗护</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">孕期营养</a>
+                                <a href="" class="nav_left_diva nav_left_diva_hei">产前产后用品</a>
+                            </div>
+                        </div>
+                        <div class="nav_nav_rig">
+                            <a href="" >
+                                <img src="images/nav8.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav9.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav10.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav11.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav12.jpg">
+                            </a>
+                            <a href="" >
+                                <img src="images/nav13.jpg">
+                            </a>
+                            <p>
+                                <img src="images/nav14.jpg">
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <ul class="navall2">
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">海外直购</a></li>
+                <li><a href="javascript:;">工厂店</a></li>
+                <li><a href="javascript:;">品质奶粉</a></li>
+                <li><a href="javascript:;">人气面膜</a></li>
+                <li><a href="javascript:;">充值</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div id="box">
+        <div class="boxtop">
+            <span class="txt">美容护肤 >&nbsp;</span>
+            <div class="txt box-f">面部清洁&nbsp;<span class="iconfont">&#xe683;</span></div>
+            <span class="txt">&nbsp;>&nbsp;</span>
+            <div class="txt box-f">洁面&nbsp;<span class="iconfont">&#xe683;</span></div>
+            <span class="txt">&nbsp;>&nbsp;</span>
+            <span class="txt txt_rig"></span>
+        </div>
+        <!-- 商品详情 -->
+        <div class="box_min">
+            <!-- 放大镜 -->
+            <div class="mai_le">
+                <div class="showimg">
+                    <img src="images/eve1.jpg" alt="">
+                    <b class="showB"></b>
+                </div>
+                <div class="noimg">
+                    <img src="images/eve1.jpg" alt="">
+                </div>
+                <div class="lisimg">
+                    <a href="javascript:;">
+                        <img src="images/eve1.jpg" alt="" class="lisimg2">
+                    </a>
+                    <a href="javascript:;">
+                        <img src="images/eve2.jpg" alt="" class="lisimg2">
+                    </a>
+                    <a href="javascript:;">
+                        <img src="images/eve3.jpg" alt="" class="lisimg2">
+                    </a>
+                    <a href="javascript:;">
+                        <img src="images/eve4.jpg" alt="" class="lisimg2">
+                    </a>
+                </div>
+            </div>
+            <!-- 价格 -->
+            <dl class="mai_rig">
+                <dt class="mai_title">
+                </dt>
+                <dt>品牌授权 原装进口 假一赔十 菜鸟直发</dt>
+                <dd class="mai_wrap">
+                    <div class="mai_price">
+                        <span class="price1 link_ti">售价</span>
+                        <div class="price_cen">
+                            <span class="price_r">
+                            </span>
+                            <span class="act">特价</span>
+                            <span class="act">包邮</span>
+                        </div>
+                        <div class="price_bot">
+                            <div class="msg">
+                                <img src="images/xq1.png" alt="">
+                                <span>开通黑卡下单预计省3元,可得290元红包</span>
+                            </div>
+                            <div class="becomevip">
+                                <span>立即开卡</span>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+                <dd class="sui">
+                    <span class="link_ti">税费</span>
+                    <p>包税</p>
+                    <u>售价已包含税费，无需另付税费</u>
+                </dd>
+                <dd class="postage">
+                    <span class="link_ti">运费</span>
+                    <span class="from1">杭州</span>
+                    <span class="from2">至</span>
+                    <div class="form3">
+                        <div class="frombox">
+                            <select class="sheng">
+                                <option>请选择省</option>
+                            </select>
+                            <select class="shi">
+                                <option>请选择市</option>
+                            </select>
+                            <select class="qu">
+                                <option>请选择市</option>
+                            </select>
+                        </div>
+                    </div>
+                    <span class="from2">免运费</span>
+                </dd>
+                <dd class="fuwu">
+                    <span class="link_ti">服务</span>
+                    <p>本商品由<span>多瑙河海外专营店</span>发货</p>
+                </dd>
+                <dd class="news">好消息！本店所有商品参加春节不打烊活动，2.4-2.19的订单，正常发货，顺丰包邮送到家，按照订单付款顺序陆续发出，任何疑问可联系在线客服帮您解答，祝您新年快乐~</dd>
+                <dd class="buybox">
+                    <div>
+                        <span class="link_ti">净含量</span>
+                        <p class="buyvla">120ml</p>
+                    </div>
+                    <div style="margin-top: 8px;">
+                        <span class="link_ti">净含量</span>
+                        <p class="buyvla">「新品上市」海外原装进口 假一赔十
+                            <i></i>
+                        </p>
+                    </div>
+                </dd>
+                <dd>
+                    <form id="form1">
+                        <div class="form_wrap">
+                            <span class="link_ti">说明</span>
+                            <span class="link_ti">正品保障</span>
+                            <span class="link_ti">七天无理由</span>
+                        </div>
+                        <div class="form_cen">
+                            <a href="gouwu.html" class="btn1">立即购买</a>
+                            <button value="购物车" class="btn2" type="button">加入购物车</button>
+                        </div>
+                    </form>
+                </dd>
+                <dd class="mai_dl_bot">
+                    <span class="fullStar">
+                        <u>★</u>
+                        <u>★</u>
+                        <u>★</u>
+                        <u>★</u>
+                        <u>★</u>
+                        <u style="font-size: 13px;">100%</u>
+                    </span>
+                    <span class="comnum">
+                        <a href="javascript:;">21</a>
+                        人评价
+                    </span>
+                    <span class="comnum">
+                        <a href="javascript:;">20</a>
+                        人晒单
+                    </span>
+                </dd>
+            </dl>
+        </div>
+        <!-- 相关推荐 -->
+        <div class="comboRecbox">
+            <h2>相关推荐</h2>
+            <div class="combox1">
+                <div class="combox_mrap combox_mrap1">
+                    <a href="javascript:;" class="itemimg">
+                        <img src="images/xq3.jpg" alt="">
+                    </a>
+                    <p class="itemTitle">
+                        Wlab氨基酸洗面奶女深层清洁毛孔祛痘控油w.lab男士专用旗舰店w
+                    </p>
+                    <p class="itempri">￥79</p>
+                    <a href="javascript:;" class="comment">
+                        109人已评价
+                    </a>
+                </div>
+                <div class="combox_mrap combox_mrap1">
+                    <a href="javascript:;" class="itemimg">
+                        <img src="images/xq4.jpg" alt="">
+                    </a>
+                    <p class="itemTitle">
+                        【全店顺丰送货到家】【下单发2支装】韩国AKF紫苏氨基酸洁面乳 温和洁面洁面清洁补水保湿缩小毛孔去洗面奶 120g/支                    </p>
+                    <p class="itempri">￥39</p>
+                    <a href="javascript:;" class="comment">
+                        111人已评价
+                    </a>
+                </div>
+                <div class="combox_mrap combox_mrap1">
+                    <a href="javascript:;" class="itemimg">
+                        <img src="images/xq5.jpg" alt="">
+                    </a>
+                    <p class="itemTitle">
+                        「进口正品」澳洲cemoy洗面奶女白金流明氨基酸洁面乳深层清洁美白控油祛痘男                    </p>
+                    <p class="itempri">￥119</p>
+                    <a href="javascript:;" class="comment">
+                        121人已评价
+                    </a>
+                </div>
+                <div class="combox_mrap combox_mrap1">
+                    <a href="javascript:;" class="itemimg">
+                        <img src="images/xq6.jpg" alt="">
+                    </a>
+                    <p class="itemTitle">
+                        「进口正品」澳洲cemoy洗面奶女白金流明氨基酸洁面乳深层清洁美白控油祛痘男                    </p>
+                    <p class="itempri">￥49.9</p>
+                    <a href="javascript:;" class="comment">
+                        1644人已评价
+                    </a>
+                </div>
+                <div class="combox_mrap combox_mrap1">
+                    <a href="javascript:;" class="itemimg">
+                        <img src="images/xq7.jpg" alt="">
+                    </a>
+                    <p class="itemTitle">
+                        「正常发货不打烊」女神vidivici洗面奶面部清洁女氨基酸洁面乳男士排行榜感肌控油榜祛痘韩国深层收缩毛孔                    </p>
+                    <p class="itempri">￥84</p>
+                    <a href="javascript:;" class="comment">
+                        240人已评价
+                    </a>
+                </div>
+                <div class="combox_mrap combox_mrap1" style="margin-right:0px">
+                    <a href="javascript:;" class="itemimg">
+                        <img src="images/xq8.jpg" alt="">
+                    </a>
+                    <p class="itemTitle">
+                        「正常发货不打烊」女神vidivici洗面奶面部清洁女氨基酸洁面乳男士排行榜感肌控油榜祛痘韩国深层收缩毛孔                    </p>
+                    <p class="itempri">￥42</p>
+                    <a href="javascript:;" class="comment">
+                        141人已评价
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 商品介绍 -->
+        <div class="box_foo">
+            <div class="box_foo1">
+                <div class="side1">
+                    <div class="imgbar">
+                        <a href="javascript:;">
+                            <img src="images/xq2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="namebar">
+                        <a href="javascript:;" class="namebar1">多瑙河海外专营店</a>
+                        <a href="javascript:;" class="namebar2">进店看看</a>
+                    </div>
+                </div>
+                <div class="side1">
+                    <h2>看了又看</h2>
+                    <div class="combox_mrap side_mrap">
+                        <a href="javascript:;" class="itemimg">
+                            <img src="images/xq3.jpg" alt="">
+                        </a>
+                        <p class="itemTitle">
+                            Wlab氨基酸洗面奶女深层清洁毛孔祛痘控油w.lab男士专用旗舰店w
+                        </p>
+                        <p class="itempri">￥79</p>
+                        <a href="javascript:;" class="comment">
+                            109人已评价
+                        </a>
+                    </div>
+                    <div class="combox_mrap side_mrap">
+                        <a href="javascript:;" class="itemimg">
+                            <img src="images/xq4.jpg" alt="">
+                        </a>
+                        <p class="itemTitle">
+                            【全店顺丰送货到家】【下单发2支装】韩国AKF紫苏氨基酸洁面乳 温和洁面洁面清洁补水保湿缩小毛孔去洗面奶 120g/支                    </p>
+                        <p class="itempri">￥39</p>
+                        <a href="javascript:;" class="comment">
+                            111人已评价
+                        </a>
+                    </div>
+                    <div class="combox_mrap side_mrap">
+                        <a href="javascript:;" class="itemimg">
+                            <img src="images/xq5.jpg" alt="">
+                        </a>
+                        <p class="itemTitle">
+                            「进口正品」澳洲cemoy洗面奶女白金流明氨基酸洁面乳深层清洁美白控油祛痘男                    </p>
+                        <p class="itempri">￥119</p>
+                        <a href="javascript:;" class="comment">
+                            121人已评价
+                        </a>
+                    </div>
+                    <div class="combox_mrap side_mrap">
+                        <a href="javascript:;" class="itemimg">
+                            <img src="images/xq6.jpg" alt="">
+                        </a>
+                        <p class="itemTitle">
+                            「进口正品」澳洲cemoy洗面奶女白金流明氨基酸洁面乳深层清洁美白控油祛痘男                    </p>
+                        <p class="itempri">￥49.9</p>
+                        <a href="javascript:;" class="comment">
+                            1644人已评价
+                        </a>
+                    </div>
+                    <div class="combox_mrap side_mrap">
+                        <a href="javascript:;" class="itemimg">
+                            <img src="images/xq7.jpg" alt="">
+                        </a>
+                        <p class="itemTitle">
+                            「正常发货不打烊」女神vidivici洗面奶面部清洁女氨基酸洁面乳男士排行榜感肌控油榜祛痘韩国深层收缩毛孔                    </p>
+                        <p class="itempri">￥84</p>
+                        <a href="javascript:;" class="comment">
+                            240人已评价
+                        </a>
+                    </div>
+                    <div class="combox_mrap side_mrap" style="margin-right:0px">
+                        <a href="javascript:;" class="itemimg">
+                            <img src="images/xq8.jpg" alt="">
+                        </a>
+                        <p class="itemTitle">
+                            「正常发货不打烊」女神vidivici洗面奶面部清洁女氨基酸洁面乳男士排行榜感肌控油榜祛痘韩国深层收缩毛孔                    </p>
+                        <p class="itempri">￥42</p>
+                        <a href="javascript:;" class="comment">
+                            141人已评价
+                        </a>
+                    </div>
+                </div>
+                <div class="side_mrap_bot"></div>
+            </div>
+            <div class="box_foo2">
+                <!-- 详情 -->
+                <div class="box_foo2_top">
+                    <h2>商品详情</h2>
+                </div>
+                <!-- main -->
+                <div class="box_foo2_cen">
+                    <div class="f-hkdn">
+                        <div class="icon">真</div>
+                        <div class="cont">
+                            <h3>正品保障</h3>
+                            <p>考拉海购每一件商品都通过严苛的品质把关，保障正品，保障品质。杜绝一切假货，让您无忧购物。</p>
+                        </div>
+                    </div>
+                    <div class="box_foo2_img">
+                        <p><img src="images/xq9.jpg" alt=""></p>
+                    </div>
+                    <div class="box_foo2_txt">
+                        <div class="box_foo2_boot">
+                            <p><br></p>
+                            <p><br></p>
+                            <p style="text-align:center;">
+                            <b><span style="color:#000">包装与生产日期</span></b>
+                            </p>
+                            <p><br></p>
+                            <p><span>1. 商品若出现新、老版本更替，可能与商详页展示内容细节有所不同（如包装颜色、式样等变化；批次产地不同等），但不影响商品品质</span></p>
+                            <p><br></p>
+                            <p><span>2. 基于环保、便捷等理念，大部分国际一线品牌、奢侈品包装较为简易，无礼品袋、小样等赠送；部分商品包装可能无外盒或盒口无封口贴、未塑封（多见于欧美、日韩化妆品）</span></p>
+                            <p><br></p>
+                            <p><span>3. 经跨国长途运输，商品外包装可能出现压痕、微损、封签（若有）脱开、喷印日期因刮蹭碰撞导致磨损等现象，但通常不影响商品品质</span></p>
+                            <p><br></p>
+                            <p><span>4. 跨境商品包装上一般不标注保质期限，通常只在产品包装上标注生产日期或到期日，也存在仅标注出厂批号的情况，比如日本、欧洲洗护以及化妆品，但一般可通过批号识别生产或者失效日期。</span></p>
+                            <p><br></p>
+                            <p><span>5. 各国家或地区商品有效期的书写方式，可在考拉pc页面底部-新手指南-常见问题中查看详情。跨境食品一般表示"Best before date"，即最佳赏味日期。该日期不是"最终保质期"，意为在此日期前食用能保证食物新鲜，故在"最佳赏味日期"前食用风味更佳。</span></p>
+                            <p><br></p>
+                            <p><span>考拉海购平台的跨境商品都是符合原产地规定的合格产品。</span></p>
+                            <p><br></p>
+                            <p style="text-align:center;">
+                                <b><span style="color:#000">商品购买及服务相关</span></b>
+                            </p>
+                            <p><br></p>
+                            <p><span>1. 基于跨境属性：1）下单后将无法支持更改地址；2）不支持无理由退货的商品，发货后不支持无理由取消订单及无理由拒签商品。</span></p>
+                            <p><span>请您下单前务必仔细核对确认所购商品，并确保收件地址、收件人及联系方式准确无误。</span></p>
+                            <p><br></p>
+                            <p><span>2. 基于跨境属性，七天无理由退货支持与否请以商品详情页提示为准。</span></p>
+                            <p><br></p>
+                            <p><span>3. 跨境商品无法提供发票，并可能因品牌保修限制，无法支持国内保修，无法享受与原产地同等的售后服务，请您知晓并理解。</span></p>
+                            <p><br></p>
+                            <p><span>4. 客服推荐尺码仅基于普通人认知及理解，具体请您查看详情页商品具体参数后进行决策，并以此为准。</span></p>
+                            <p><br></p>
+                            <p><span>5. 订单确认页“给商家留言”版块仅限对商家的温馨提示，若需对订单内容作出实质性变更的，请联系商家沟通并达成一致，否则留言内容将视为无效。</span></p>
+                            <p><br></p>
+                            <p><span>6. 贴身衣类商品建议您清洗后再使用；化妆品类商品因个体肤质不同，请您使用前先在手臂试用，如出现过敏情况请立即停止使用，并视情形及时就医。</span></p>
+                            <p><br></p>
+                            <p><span>7. 保价时效等相关问题详见平台规则。</span></p>
+                            <p><br></p>
+                        </div>
+                    </div>
+                    <div class="packdate">
+                        <p>
+                            <img src="images/xq10.png" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fix_rig fix_style">
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <i class="fix_rig_img fix_img2"></i>
+                    <span>签到</span>
+                    <span class="fix_rig_no fix_rig_no1">
+                        <span class="text">
+                            每日签到
+                            <br>
+                            赢考拉豆
+                        </span>
+                        <span class="fix_rig_no2">
+                            <span class="arr"></span>
+                            <span class="arr"></span>
+                        </span>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="gouwu.html" id="go_cart">
+                    <i class="fix_rig_img fix_img3"></i>
+                    <span>购物车</span>
+                    <u class="cart_num">0</u>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="fix_rig_img fix_img4"></i>
+                    <span>APP</span>
+                    <span class="fix_rig_app fix_rig_no">
+                        <img src="images/fix7.png" alt="">
+                        <p>
+                            <span>下载APP</span>
+                            <br>
+                            <span>领1000元新人礼包</span>
+                        </p>
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#top">
+                    <i class="fix_rig_img fix_img5"></i>
+                    <span>TOP</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="foot">
+        <div class="foot_box">
+            <ul>
+                <li>
+                    <div class="foot_h">正</div>
+                    <h3>正品承诺</h3>
+                    <p>正品保障 假一赔十</p>
+                </li>
+                <li>
+                    <div class="foot_h">低</div>
+                    <h3>低价保障</h3>
+                    <p>缩减中间环节 确保低价</p>
+                </li>
+                <li>
+                    <div class="foot_h">退</div>
+                    <h3>30天无忧退货</h3>
+                    <p>国内退货 售后无忧</p>
+                </li>
+                <li>
+                    <div class="foot_h">邮</div>
+                    <h3>满88包邮</h3>
+                    <p>部分特殊商品除外</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bott">
+        <div class="bott_box">
+            <ul>
+                <li class="bott_one">
+                    <a href="javascript:;" class="bott_logo"></a>
+                    <div>
+                        <span>关注我们</span>
+                        <a href="javascript:;" class="bott_for1 bott_go1">
+                            <em></em>
+                            <span>
+                                <img src="images/bott3.png" alt="">
+                            </span>
+                        </a>
+                        <a href="javascript:;" class="bott_for1 bott_go2">
+                            <em></em>
+                            <span>
+                                <img src="images/bott3.png" alt="">
+                            </span>
+                        </a>
+                    </div>
+                </li>
+                <li class="bott_two"><dl>
+                    <dt>考拉保障</dt>
+                    <dd><a href="javascript:;">假一赔十</a></dd>
+                    <dd><a href="javascript:;">廉政举报</a></dd>
+                </dl></li>
+                <li class="bott_two"><dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="javascript:;">购物流程</a></dd>
+                    <dd><a href="javascript:;">支付方式</a></dd>
+                    <dd><a href="javascript:;">通关税费</a></dd>
+                    <dd><a href="javascript:;">常见问题</a></dd>
+                </dl></li>
+                <li class="bott_two"><dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="javascript:;">售后政策</a></dd>
+                    <dd><a href="javascript:;">退货流程</a></dd>
+                    <dd><a href="javascript:;">特色服务</a></dd>
+                    <dd><a href="javascript:;">联系客服</a></dd>
+                </dl></li>
+                <li class="bott_two"><dl>
+                    <dt>物流配送</dt>
+                    <dd><a href="javascript:;">配送方式</a></dd>
+                    <dd><a href="javascript:;">配送服务</a></dd>
+                    <dd><a href="javascript:;">运费标准</a></dd>
+                    <dd><a href="javascript:;">物流跟踪</a></dd>
+                </dl></li>
+                <li class="bott_two"><dl>
+                    <dt>商家服务</dt>
+                    <dd><a href="javascript:;">招商合作</a></dd>
+                    <dd><a href="javascript:;">销售联盟</a></dd>
+                    <dd><a href="javascript:;">商家成长</a></dd>
+                </dl></li>
+                <li class="bott_two"><dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="javascript:;">联系我们</a></dd>
+                    <dd><a href="javascript:;">CEO邮箱</a></dd>
+                    <dd><a href="javascript:;">线下店铺</a></dd>
+                </dl></li>
+                <li class="bott_three">
+                    <img src="images/bott3.png" alt="">
+                    <span>扫描下载手机版</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="icp">
+        <div class="icp_box">
+            <span>增值电信业务经营许可证：浙B2-20160288</span>
+            <span>（浙）网械平台备字[2018]第00007号</span>
+            <span>阿里巴巴版权所有©2003-2021</span>
+            <a style="margin-left: 20px;" href="#">隐私政策</a>
+            <u>-</u>
+            <a href="#">考拉海购</a>
+            <br>
+            <span>网络文化经营许可证：浙网文（2020）4340-180号</span>
+            <span>浙江省网络食品销售第三方平台提供者备案：浙网食A33010006</span>
+            <a href="#"><span style="margin: 0px 0px 0px 20px;">网络第三方平台规范进口冷链食品承诺函</span></a>
+            <br>
+            <a href="#"><img src="images/kaola4.png"></a>
+            <a href="#"><span style="margin: 0px 0px 0px 5px;">浙公网安备 33010802002216号</span> </a>
+            <a href="#"><span>互联网药品信息服务资格证书编号（浙）-2017-0027</span></a>
+            <a href="#"><span>浙ICP备16011229号-6 </span></a>
+            <a href="#"><span>自营经营者信息 </span></a>
+            <br>
+            <a href="#"><img src="images/kaola5.png" class="icp_img2"></a>
+            <a href="#"><img src="images/kaola6.png" class="icp_img3"></a>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/xiangqing.js"></script>
+</body>
+</html>

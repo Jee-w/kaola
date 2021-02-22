@@ -1,0 +1,31 @@
+body, h1,h2,h3,h4,h5,h6,div, p,a,img,input,span,i,em,u,ul,li,ol,dl,dt,dd,b,text{margin: 0;padding: 0;}
+li{list-style: none;}
+a,u{
+    text-decoration: none;
+    color: #333333;
+}
+i{
+    font-style:normal
+}
+img, input, select {
+    vertical-align: middle;
+    display: inline-block;
+}
+h1{
+    font-weight: normal;
+}
+body,html{
+    height: 100%;
+}
+body{
+    font: 12px/1.5 Helvetica Neue,Helvetica,Arial
+}
+/* :after{
+    content:"";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    overflow: hidden;
+    font: 12px;
+    height: 0;
+} */
